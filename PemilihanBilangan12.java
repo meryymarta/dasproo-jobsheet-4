@@ -10,12 +10,11 @@ public class PemilihanBilangan12 {
         System.out.print("Masukkan sebuah angka: ");
         angka = sc.nextInt();
 
-        if (angka % 2 == 0) 
-        //genap
-        System.out.println("Angka " + angka + " termasuk bilangan genap");
-        else 
-        //ganjil
-        System.out.println("Angka " + angka + " termasuk bilangan ganjil");
+        //ternary operator
+        String hasil;
+        hasil = (angka % 2 == 0) ? "termasuk bilangan genap" : "termasuk bilangan ganjil";
+        System.out.println(hasil);
+        
     }
 }
     
