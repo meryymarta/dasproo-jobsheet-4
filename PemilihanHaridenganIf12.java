@@ -6,14 +6,15 @@ public class PemilihanHaridenganIf12 {
         //Deklarasi variabel
         int number;
 
-        System.out.print("Masukkan nomor (1-7): ");
+        //proses
+        System.out.print("Masukkan nomor 1-7: ");
         number = input.nextInt();
 
         if (number >= 1 && number <= 7) {
             if (number <= 5) {
-                System.out.println("weekday");
+                System.out.println(" is a weekday");
             } else {
-                System.out.println("weekend");
+                System.out.println("is a weekend");
             }
             } else {
                 System.out.println("invalid number");
